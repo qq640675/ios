@@ -1,0 +1,1 @@
+../../../QCloudTrack/QCloudTrack/Classes/Beacon/QCloudTrackBeacon.h

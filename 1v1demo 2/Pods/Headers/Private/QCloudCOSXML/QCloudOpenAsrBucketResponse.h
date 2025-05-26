@@ -1,0 +1,1 @@
+../../../QCloudCOSXML/QCloudCOSXML/Classes/CI/model/QCloudOpenAsrBucketResponse.h

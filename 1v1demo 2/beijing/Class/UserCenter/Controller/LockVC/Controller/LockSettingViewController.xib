@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LockSettingViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lock_bg" translatesAutoresizingMaskIntoConstraints="NO" id="gIw-da-Dgr">
+                    <rect key="frame" x="146" y="120" width="83" height="129"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未成年模式已关闭" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gB-0f-gzN">
+                    <rect key="frame" x="114" y="305" width="147" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="开启未成年模式，可防止未成年使用" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDe-07-Q3E">
+                    <rect key="frame" x="73" y="335" width="229" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.52549019610000003" green="0.52549019610000003" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GhX-Xc-Dde">
+                    <rect key="frame" x="30.5" y="470" width="314" height="59"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
+                    <state key="normal" title="开启未成年模式" backgroundImage="insufficient_coin_pay">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="clickedOpenBtn:" destination="-1" eventType="touchUpInside" id="xUo-z1-PXf"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="SDe-07-Q3E" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="Cwt-do-Qno"/>
+                <constraint firstItem="gIw-da-Dgr" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="120" id="DWu-Xu-dGu"/>
+                <constraint firstItem="GhX-Xc-Dde" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="Q7R-Ry-po7"/>
+                <constraint firstItem="gIw-da-Dgr" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="Qpp-fc-Y4t"/>
+                <constraint firstItem="5gB-0f-gzN" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="b8T-LM-XyX"/>
+                <constraint firstItem="GhX-Xc-Dde" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="470" id="hWE-Ge-Eff"/>
+                <constraint firstItem="SDe-07-Q3E" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="335" id="saS-mb-Vse"/>
+                <constraint firstItem="5gB-0f-gzN" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="305" id="skK-h8-zyn"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="132" y="104.7976011994003"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Lock_bg" width="83.5" height="128.5"/>
+        <image name="insufficient_coin_pay" width="314" height="59"/>
+    </resources>
+</document>

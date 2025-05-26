@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="newConvertView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4oi-na-ydf">
+                    <rect key="frame" x="0.0" y="40" width="375" height="1"/>
+                    <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="HMd-yI-mCZ"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wCU-39-hsd">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="所需金币:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N2E-dp-beJ">
+                            <rect key="frame" x="16" y="13" width="80" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="14" id="ajL-Hr-K09"/>
+                                <constraint firstAttribute="width" constant="80" id="vlK-MA-APu"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kxj-ar-IYS">
+                            <rect key="frame" x="111" y="13" width="248" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="14" id="Odr-a9-25q"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.99607843137254903" green="0.16078431372549018" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="N2E-dp-beJ" firstAttribute="centerY" secondItem="wCU-39-hsd" secondAttribute="centerY" id="2Xj-8q-Zel"/>
+                        <constraint firstItem="Kxj-ar-IYS" firstAttribute="centerY" secondItem="wCU-39-hsd" secondAttribute="centerY" id="IZx-AO-sfA"/>
+                        <constraint firstAttribute="trailing" secondItem="Kxj-ar-IYS" secondAttribute="trailing" constant="16" id="WKL-9x-Zu1"/>
+                        <constraint firstItem="Kxj-ar-IYS" firstAttribute="leading" secondItem="N2E-dp-beJ" secondAttribute="trailing" constant="15" id="XSr-ij-Noc"/>
+                        <constraint firstItem="N2E-dp-beJ" firstAttribute="leading" secondItem="wCU-39-hsd" secondAttribute="leading" constant="16" id="YJT-GX-mQo"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="提现须知:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lxp-ZK-4kX">
+                    <rect key="frame" x="16" y="51" width="80" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14" id="3pw-LN-SFG"/>
+                        <constraint firstAttribute="width" constant="80" id="aJg-fU-Ywh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poR-jD-lBo">
+                    <rect key="frame" x="16" y="73" width="343" height="130"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="130" id="gjd-um-QgW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2：必须上传支付宝收款码方可到账。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aAr-W9-K0K">
+                    <rect key="frame" x="16" y="211" width="343" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14" id="aa3-Qa-GPY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDX-9G-cmy">
+                    <rect key="frame" x="31" y="235" width="314" height="59"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="59" id="S3A-xb-INS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="-5" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="立即兑换" backgroundImage="insufficient_coin_pay">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="FDX-9G-cmy" secondAttribute="bottom" constant="6" id="2xR-fd-dNB"/>
+                <constraint firstItem="4oi-na-ydf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="3eR-lh-ekk"/>
+                <constraint firstItem="FDX-9G-cmy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="31" id="Bj0-tS-0t3"/>
+                <constraint firstAttribute="trailing" secondItem="4oi-na-ydf" secondAttribute="trailing" id="Dm0-co-gyS"/>
+                <constraint firstItem="lxp-ZK-4kX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="E1T-9x-CWO"/>
+                <constraint firstItem="aAr-W9-K0K" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="G3M-b6-h3B"/>
+                <constraint firstItem="poR-jD-lBo" firstAttribute="top" secondItem="lxp-ZK-4kX" secondAttribute="bottom" constant="8" id="HWB-1a-5fD"/>
+                <constraint firstItem="aAr-W9-K0K" firstAttribute="top" secondItem="poR-jD-lBo" secondAttribute="bottom" constant="8" id="MnB-vc-l1H"/>
+                <constraint firstItem="4oi-na-ydf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="TqT-yG-zIt"/>
+                <constraint firstAttribute="trailing" secondItem="wCU-39-hsd" secondAttribute="trailing" id="dfn-5y-9ej"/>
+                <constraint firstItem="wCU-39-hsd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="e3z-wr-IRM"/>
+                <constraint firstItem="4oi-na-ydf" firstAttribute="top" secondItem="wCU-39-hsd" secondAttribute="bottom" id="eJf-lP-Em6"/>
+                <constraint firstItem="poR-jD-lBo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="jYI-i6-QDX"/>
+                <constraint firstItem="lxp-ZK-4kX" firstAttribute="top" secondItem="4oi-na-ydf" secondAttribute="bottom" constant="10" id="jnT-2L-RpQ"/>
+                <constraint firstAttribute="trailing" secondItem="FDX-9G-cmy" secondAttribute="trailing" constant="30" id="nJn-rV-2QA"/>
+                <constraint firstAttribute="trailing" secondItem="poR-jD-lBo" secondAttribute="trailing" constant="16" id="nWf-Iv-l37"/>
+                <constraint firstAttribute="trailing" secondItem="aAr-W9-K0K" secondAttribute="trailing" constant="16" id="s3d-9o-nGR"/>
+                <constraint firstItem="wCU-39-hsd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="wVh-m7-Xaa"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="canCoinsLabel" destination="Kxj-ar-IYS" id="gjH-oM-Nxf"/>
+                <outlet property="ruleLabel" destination="poR-jD-lBo" id="oGq-MA-9XD"/>
+                <outlet property="withdrawNowBtn" destination="FDX-9G-cmy" id="le7-m9-MMx"/>
+            </connections>
+            <point key="canvasLocation" x="40.799999999999997" y="46.326836581709152"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="insufficient_coin_pay" width="314" height="59"/>
+    </resources>
+</document>

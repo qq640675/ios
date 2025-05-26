@@ -1,0 +1,1 @@
+../../../QCloudCore/QCloudCore/Classes/Base/QCloudBase/QualityAssurance/QCloudServiceConfiguration+Quality.h

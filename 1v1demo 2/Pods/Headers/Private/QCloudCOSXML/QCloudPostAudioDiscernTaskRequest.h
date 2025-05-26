@@ -1,0 +1,1 @@
+../../../QCloudCOSXML/QCloudCOSXML/Classes/CI/request/QCloudPostAudioDiscernTaskRequest.h

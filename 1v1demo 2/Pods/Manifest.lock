@@ -1,0 +1,156 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.4.1)
+  - CocoaLumberjack (3.4.2):
+    - CocoaLumberjack/Default (= 3.4.2)
+    - CocoaLumberjack/Extensions (= 3.4.2)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Extensions (3.4.2):
+    - CocoaLumberjack/Default
+  - FLAnimatedImage (1.0.12)
+  - GPUImage (0.1.7)
+  - ISVImageScrollView (0.1.2)
+  - JCore (2.1.1)
+  - JPush (3.2.1):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.4.1)
+  - MMLayout (0.2.0)
+  - PGPickerView (1.3.8)
+  - Protobuf (3.11.2)
+  - QCloudCore (6.4.4):
+    - QCloudCore/Default (= 6.4.4)
+  - QCloudCore/Default (6.4.4):
+    - QCloudTrack/Beacon (= 6.4.4)
+  - QCloudCOSXML (6.4.4):
+    - QCloudCOSXML/Default (= 6.4.4)
+  - QCloudCOSXML/Default (6.4.4):
+    - QCloudCore (= 6.4.4)
+  - QCloudTrack/Beacon (6.4.4)
+  - ReactiveObjC (3.1.1)
+  - SDCycleScrollView (1.80):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.16.0):
+    - SDWebImage/Core (= 5.16.0)
+  - SDWebImage/Core (5.16.0)
+  - SPPageMenu (3.5.0)
+  - SSZipArchive (2.2.2)
+  - SVGAPlayer (2.5.2):
+    - SVGAPlayer/Core (= 2.5.2)
+    - SVGAPlayer/ProtoFiles (= 2.5.2)
+  - SVGAPlayer/Core (2.5.2):
+    - SSZipArchive (>= 1.8.1)
+    - SVGAPlayer/ProtoFiles
+  - SVGAPlayer/ProtoFiles (2.5.2):
+    - Protobuf (~> 3.4)
+  - SVProgressHUD (2.2.5)
+  - SYFavoriteButton (1.1)
+  - Toast (4.0.0)
+  - TXIMSDK_iOS (4.6.54)
+  - TXIMSDK_TUIKit_iOS (4.6.54):
+    - ISVImageScrollView
+    - MMLayout
+    - ReactiveObjC
+    - SDWebImage
+    - Toast
+    - TXIMSDK_iOS
+
+DEPENDENCIES:
+  - AFNetworking (~> 4.0.1)
+  - CocoaAsyncSocket (= 7.4.1)
+  - CocoaLumberjack
+  - FLAnimatedImage (~> 1.0)
+  - GPUImage
+  - JPush
+  - Masonry
+  - MJExtension (= 3.0.13)
+  - MJRefresh (~> 3.4.1)
+  - PGPickerView
+  - QCloudCOSXML (= 6.4.4)
+  - SDCycleScrollView (~> 1.80)
+  - SDWebImage
+  - SPPageMenu
+  - SVGAPlayer (~> 2.5.2)
+  - SVProgressHUD
+  - SYFavoriteButton
+  - TXIMSDK_TUIKit_iOS (~> 4.6.54)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - FLAnimatedImage
+    - GPUImage
+    - ISVImageScrollView
+    - JCore
+    - JPush
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - MMLayout
+    - PGPickerView
+    - Protobuf
+    - QCloudCore
+    - QCloudCOSXML
+    - QCloudTrack
+    - ReactiveObjC
+    - SDCycleScrollView
+    - SDWebImage
+    - SPPageMenu
+    - SSZipArchive
+    - SVGAPlayer
+    - SVProgressHUD
+    - SYFavoriteButton
+    - Toast
+    - TXIMSDK_iOS
+    - TXIMSDK_TUIKit_iOS
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  CocoaAsyncSocket: 7cbf214b27f8e7f7574db6a3fd96352ffaed433d
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  ISVImageScrollView: ba511d12a1661b40feb8921309c0854bf93ec749
+  JCore: 4072327557f0b83cc22dd4041f2f839740c0077b
+  JPush: a1ff8b8ec53fa3419b414946e4db4efa313baeae
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: 3153c59a363159092c08b2177ec3a7d09f90bfaf
+  MMLayout: 3fb59d58eeb8656c64e61d550fb0088e10666c11
+  PGPickerView: 037acfb132a4c8054fb43aaa59a5ff50c7f747f5
+  Protobuf: dd1aaea7140debfe4dd0683fb8ef208e527ae153
+  QCloudCore: 9b13ad49cf5fc4537f416811f31c41cf46d8f3c2
+  QCloudCOSXML: b24d8a1225e4b3270d36bbcfa66478fedc1c6de6
+  QCloudTrack: 6d517b5ba707f065a7c344146b34140738c149c4
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDCycleScrollView: b3c9a5ed840c771c4938978174c7c9d9feefeb96
+  SDWebImage: 2aea163b50bfcb569a2726b6a754c54a4506fcf6
+  SPPageMenu: da182aafcec55719d5c326103cc7716c1e48f311
+  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
+  SVGAPlayer: c666a7886b72ee77d494c49aa4fd61df175dd103
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SYFavoriteButton: 9e1ec437f1aec618c2282439a46d75208afd38e4
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  TXIMSDK_iOS: c75175b843c2adfeb137dd54a92d7721d8fe53db
+  TXIMSDK_TUIKit_iOS: 4b2dc7fa98bab179b199a9a411cbce57de8c337a
+
+PODFILE CHECKSUM: 29452e9314806780de063e23379349e87ed4dad6
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,6 @@
+framework module SandPayGate {
+  umbrella header "SandPayGate.h"
+  export *
+
+  module * { export * }
+}

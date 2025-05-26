@@ -1,0 +1,1 @@
+../../../QCloudCOSXML/QCloudCOSXML/Classes/CI/enum/QCloudGenerateSnapshotModeEnum.h

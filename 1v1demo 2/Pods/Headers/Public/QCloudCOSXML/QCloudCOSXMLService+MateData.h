@@ -1,0 +1,1 @@
+../../../QCloudCOSXML/QCloudCOSXML/Classes/MateData/QCloudCOSXMLService+MateData.h

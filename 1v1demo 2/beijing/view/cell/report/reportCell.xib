@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="reportCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="42.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hnB-vm-7yQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="42.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oSR-Ba-N97">
+                                <rect key="frame" x="15" y="41.5" width="305" height="1"/>
+                                <color key="backgroundColor" red="0.96470588235294119" green="0.96862745098039216" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="icR-a3-hY2"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lAW-RS-2xF">
+                                <rect key="frame" x="15" y="11" width="160" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="J2q-yM-4qq"/>
+                                    <constraint firstAttribute="height" constant="21" id="c2g-ba-1hS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="report_Choosefor" translatesAutoresizingMaskIntoConstraints="NO" id="6g8-x6-nnF">
+                                <rect key="frame" x="282" y="10" width="23" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="SsU-W9-6XT"/>
+                                    <constraint firstAttribute="width" constant="23" id="v77-NS-Pkz"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lAW-RS-2xF" firstAttribute="centerY" secondItem="hnB-vm-7yQ" secondAttribute="centerY" id="1gX-aS-eWn"/>
+                            <constraint firstAttribute="trailing" secondItem="oSR-Ba-N97" secondAttribute="trailing" id="3ON-Yd-BCQ"/>
+                            <constraint firstItem="6g8-x6-nnF" firstAttribute="centerY" secondItem="hnB-vm-7yQ" secondAttribute="centerY" id="9vl-Fl-NvN"/>
+                            <constraint firstAttribute="bottom" secondItem="oSR-Ba-N97" secondAttribute="bottom" id="KUO-iX-ELT"/>
+                            <constraint firstItem="oSR-Ba-N97" firstAttribute="leading" secondItem="hnB-vm-7yQ" secondAttribute="leading" constant="15" id="UcS-Ct-1qj"/>
+                            <constraint firstItem="lAW-RS-2xF" firstAttribute="leading" secondItem="hnB-vm-7yQ" secondAttribute="leading" constant="15" id="gUO-iu-0F1"/>
+                            <constraint firstAttribute="trailing" secondItem="6g8-x6-nnF" secondAttribute="trailing" constant="15" id="yPR-EX-0tz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="hnB-vm-7yQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="4Aw-wI-Jmc"/>
+                    <constraint firstAttribute="trailing" secondItem="hnB-vm-7yQ" secondAttribute="trailing" id="dwd-bT-GFa"/>
+                    <constraint firstItem="hnB-vm-7yQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="eDV-JV-81W"/>
+                    <constraint firstAttribute="bottom" secondItem="hnB-vm-7yQ" secondAttribute="bottom" id="mnK-rV-PQb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="reasonLabel" destination="lAW-RS-2xF" id="jp8-IC-LhO"/>
+                <outlet property="selImgView" destination="6g8-x6-nnF" id="W0f-Gd-15a"/>
+            </connections>
+            <point key="canvasLocation" x="33" y="40"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="report_Choosefor" width="15" height="15"/>
+    </resources>
+</document>
